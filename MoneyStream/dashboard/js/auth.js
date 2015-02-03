@@ -75,7 +75,7 @@ function checkCookie() {
     	return;
     }
     if (user !== "") {
-        window.location = 'dashboard.html';
+        window.location = 'index.html';
     } else {
         window.location = 'login.html';
     }
