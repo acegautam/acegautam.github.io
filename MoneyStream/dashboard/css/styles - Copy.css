@@ -1,0 +1,51 @@
+/***	Custom CSS for Calendar 	***/
+/***	Overridding default styles	***/
+
+body {
+	margin: 40px 10px;
+	padding: 0;
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	font-size: 14px;
+}
+
+.containerBox{
+	float: left;
+	background-color: #F0F0F0;
+}
+.cal {
+	max-width: 200px;
+	margin: 0 auto;
+	font-size: 10px;
+	padding-bottom: 50px;
+}
+.fc-toolbar h2 {
+    font-size: .9em;
+    white-space: normal !important;
+}
+.fc-widget-header{
+	font-size: 1em;
+    white-space: normal !important;
+    text-transform: uppercase;
+    height: 25px;	
+}
+.fc-basic-view tbody .fc-row{
+	min-height: 2em;
+}
+.fc table{
+	font-size: 0.9em;
+}
+.fc td, .fc th{
+	border-style: none;
+}
+.fc-ltr .fc-basic-view .fc-day-number{
+	text-align: center;
+}
+.fc-event-container{
+    font-size: 0;
+    overflow: hidden;
+    height: 2px;
+}
+.fc-event{
+	border: 1px solid teal;
+	background-color: teal;
+}

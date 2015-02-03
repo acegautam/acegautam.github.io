@@ -1,0 +1,93 @@
+[
+	{
+                "id": 1,
+                "name": "AT&T Wireless",
+                "average": "$144.95",
+                "estDueDate": "05-Feb-2015",
+                "imgUrl": "images/logos/att_globe.png",
+                "previousBills":[
+                	{
+                		"date": "Sept 16",
+                		"amt": "$150.95"
+                	},
+                	{
+                		"date": "Oct 16",
+                		"amt": "$133.95"
+                	},
+                	{
+                		"date": "Nov16",
+                		"amt": "$140.94"
+                	}
+
+                ]
+        },
+        {
+                "id": 2,
+                "name": "Windows Drive",
+                "average": "$205.00",
+                "estDueDate": "13-Feb-2015",
+                "imgUrl": "images/logos/windows.png",
+                "previousBills":[
+                	{
+                		"date": "Mar 11",
+                		"amt": "$210.95"
+                	},
+                	{
+                		"date": "Apr 21",
+                		"amt": "$199.95"
+                	},
+                	{
+                		"date": "Feb 13",
+                		"amt": "$200.40"
+                	}
+
+                ]
+        },
+        {
+                "id": 3,
+                "name": "Vodafone",
+                "average": "$933.30",
+                "estDueDate": "9-Mar-2015",
+                "imgUrl": "images/logos/vodafone.png",
+                "previousBills":[
+                	{
+                		"date": "Jan 6",
+                		"amt": "$944.95"
+                	},
+                	{
+                		"date": "Feb 11",
+                		"amt": "$1033.95"
+                	},
+                	{
+                		"date": "Mar 24",
+                		"amt": "$1000.94"
+                	}
+
+                ]
+        },
+        {
+                "id": 4,
+                "name": "Tata Sky",
+                "average": "$5014.80",
+                "estDueDate": "26-Mar-2015",
+                "imgUrl": "images/logos/tatasky.png",
+                "previousBills":[
+                	{
+                		"date": "Sept 16",
+                		"amt": "$5144.95"
+                	},
+                	{
+                		"date": "Oct 16",
+                		"amt": "$5522.95"
+                	},
+                	{
+                		"date": "Nov 16",
+                		"amt": "$4908.80"
+                	}
+
+                ]
+        }
+                
+
+					 
+]
