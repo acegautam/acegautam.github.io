@@ -30,7 +30,7 @@ function login(){
 				    if(value.username == username && value.password == password){
 				    	//resultDiv.innerHTML = "You are successfully signed in";
 				    	document.cookie="username="+ value.username;
-				    	window.location = 'dashboard.html';
+				    	window.location = 'index.html';
 				    	return false;
 				    }
 				    else{
