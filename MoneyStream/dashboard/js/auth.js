@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	console.log("Ready");
-	checkCookie();
+	setTimeout(checkCookie, 500);
 });
 
 function login(){
@@ -74,9 +74,7 @@ function checkCookie() {
     if(pageName === 'login.html'){
     	return;
     }
-    if (user !== "") {
-        window.location = 'index.html';
-    } else {
+    if (user === "") {
         window.location = 'login.html';
     }
 }
