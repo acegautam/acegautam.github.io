@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <p>Learn English app installation page</p>
+    <script>
+      var manifestUrl = 'http://acegautam.github.io/learn-english/manifest.webapp';
+      var req = navigator.mozApps.installPackage(manifestUrl);
+      req.onsuccess = function() {
+        alert('App installed successfully!');
+      };
+      req.onerror = function() {
+        alert(this.error.name);
+      };
+    </script>
+  </body>
+</html>

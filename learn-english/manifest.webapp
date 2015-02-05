@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "name": "LearnEnglish",
+  "description": "LearnEnglish app",
+  "package_path" : "http://acegautam.github.io/learn-english/package.zip",
+  "developer": {
+    "name": "LearnEnglish",
+    "url": "#"
+  }
+}
