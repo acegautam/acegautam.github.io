@@ -74,15 +74,17 @@ HERO AREA
 #hero{
     color: #fff;
     text-align: center;
-    background: url(../img/trianglify-background.svg)no-repeat; /*your background image*/
+    background: url(../img/bg1.jpg)no-repeat; /*your background image*/
     background-size: cover;
     max-height: 880px;
     overflow: hidden;
 }
 
 #hero img{
-    height: 650px;
-    width: 800px;
+    height: 50%;
+    width: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .herocontent{
@@ -304,6 +306,11 @@ FOLLOW BUTTON
 
 .copyright {
     display: none;
+}
+
+.services img.scale {
+    width: 100px;
+    height: 100px;
 }
 
 @media (max-width: 767px){
